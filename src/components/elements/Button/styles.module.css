@@ -1,0 +1,15 @@
+.btn-black {
+  background-color: #000000;
+}
+
+.btn-white {
+  background-color: #FFFFFF;
+}
+
+.radius-4 {
+  border-radius: 4px;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}

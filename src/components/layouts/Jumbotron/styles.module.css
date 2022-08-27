@@ -1,0 +1,27 @@
+.jumbotron {
+  background-image: url('../../../assets/images/ImgHero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 944px;
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.jumbotron p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #D3D3D3;
+}
+
+.jumbotron .btn-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #F2F2F2;
+}
