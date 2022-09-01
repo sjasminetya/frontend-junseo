@@ -7,7 +7,7 @@ type Props = {
 
 const DefaultLayouts = (props: Props) => {
   return (
-    <div>
+    <div className="relative">
       <Header />
       <div>{props.children}</div>
     </div>

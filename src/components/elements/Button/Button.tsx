@@ -12,7 +12,7 @@ type ButtonProps = {
   type: "Link" | "Button" | "submit";
   isBlack?: boolean;
   isWhite?: boolean;
-  radius: "4" | "10";
+  radius: "4" | "10" | "0";
   isShadow?: boolean;
   qty?: number;
   check?: boolean;
@@ -25,7 +25,7 @@ const Button: React.FC<ButtonProps> = (props) => {
   const type = props.type === "submit" ? "submit" : "button";
   props.isBlack && className.push(styles["btn-black"]);
   props.isWhite && className.push(styles["btn-white"]);
-  props.radius === "4" ? className.push(styles["radius-4"]) : className.push(styles["radius-10"]);
+  className.push(styles[`radius-${props.radius}`]);
   props.isShadow && className.push("shadow-lg");
 
   const onClick = () => {

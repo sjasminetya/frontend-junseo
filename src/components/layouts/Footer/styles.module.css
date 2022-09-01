@@ -1,0 +1,41 @@
+.footer {
+  height: 386px;
+  background: #626262;
+}
+
+.footer .border-bottom {
+  background: #1C1C1C;
+  height: 45px;
+}
+
+.footer h1 {
+  line-height: 54px;
+}
+
+.footer h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.footer ul li {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(235, 235, 235, 0.75);
+  padding-bottom: 14px;
+}
+
+.footer .btn-icon {
+  background: rgba(235, 235, 235, 0.3);
+  border-radius: 100%;
+  width: 30.61px;
+  height: 30.61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
