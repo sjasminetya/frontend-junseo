@@ -12,7 +12,7 @@ const Footer = () => {
     );
   };
   return (
-    <footer className={["absolute w-full flex flex-col justify-between", styles.footer].join(" ")}>
+    <footer className={["absolute bottom-0 w-full flex flex-col justify-between", styles.footer].join(" ")}>
       <div className="px-24 pt-14">
         <div className="grid grid-cols-4 gap-5">
           <h1 className="text-white font-bold text-4xl">JUNSEO</h1>

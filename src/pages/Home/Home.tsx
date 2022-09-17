@@ -1,15 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/elements";
 import DefaultLayouts from "../../components/layouts/DefaultLayouts";
-import Footer from "../../components/layouts/Footer";
 import Jumbotron from "../../components/layouts/Jumbotron";
 import { ICONS, IMAGES } from "../../configs";
+import { RouterPath } from "../../routes";
 import styles from "./styles.module.css";
 
 const Home = () => {
+  const navigate = useNavigate();
+
   const renderNewArrival = (image: string, title: string) => {
     return (
-      <div className="mx-10">
+      <div className="mx-10 cursor-pointer" onClick={() => navigate(RouterPath.PRODUCT)}>
         <img alt={title} className={styles["image-arrival"]} src={image} />
         <p className="text-lg font-medium text-black text-center mt-4">{title}</p>
       </div>
@@ -87,7 +90,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </DefaultLayouts>
   );
 };

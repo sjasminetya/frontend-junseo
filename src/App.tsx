@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Product from "./pages/Product";
 import { RouterPath } from "./routes";
 
 function App() {
@@ -14,6 +15,10 @@ function App() {
         <Route
           element={<Home />}
           path={RouterPath.HOME}
+        />
+        <Route
+          element={<Product />}
+          path={RouterPath.PRODUCT}
         />
       </Routes>
     </BrowserRouter>

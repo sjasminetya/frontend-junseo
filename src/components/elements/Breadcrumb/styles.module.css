@@ -1,0 +1,26 @@
+ul.breadcrumb {
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+ul.breadcrumb li.active-breadcrumb a {
+  color: black;
+}

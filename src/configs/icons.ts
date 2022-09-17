@@ -1,3 +1,4 @@
+import ARROWRDOWN from "../assets/icons/ic-arrow-down.svg";
 import ARROWRIGHTGRAY from "../assets/icons/ic-arrow-right-gray.svg";
 import FACEBOOK from "../assets/icons/ic-facebook.svg";
 import GIFT from "../assets/icons/ic-gift.svg";
@@ -7,11 +8,13 @@ import SEARCH from "../assets/icons/ic-search.svg";
 import SHOPPINGBAG from "../assets/icons/ic-shopping-bag.svg";
 import SHOPPINGCART from "../assets/icons/ic-shopping-cart.svg";
 import STAR from "../assets/icons/ic-star.svg";
+import STARBLACK from "../assets/icons/ic-star-black.svg";
 import TRUCK from "../assets/icons/ic-truck.svg";
 import TWITTER from "../assets/icons/ic-twitter.svg";
 import USER from "../assets/icons/ic-user.svg";
 
 const icons = {
+  ARROWRDOWN,
   ARROWRIGHTGRAY,
   FACEBOOK,
   GIFT,
@@ -21,6 +24,7 @@ const icons = {
   SHOPPINGBAG,
   SHOPPINGCART,
   STAR,
+  STARBLACK,
   TRUCK,
   TWITTER,
   USER,
