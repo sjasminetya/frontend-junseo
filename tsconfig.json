@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "types": [
+      "react",
+      "jest"
+    ] /* Type declaration files to be included in compilation. */,
     "target": "es5",
     "lib": [
       "dom",
@@ -13,14 +17,14 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "sourceMap": true
   },
-  "include": [
-    "src"
-  ]
+  "exclude": ["build", "node_modules", "**/*.spec.ts", "**/*.test.ts"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"]
 }

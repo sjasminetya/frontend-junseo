@@ -1,0 +1,144 @@
+.cart-body {
+  border-right: 1px solid #CECECE;
+}
+
+.cart-body .btn-like {
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 50px rgba(181, 181, 181, 0.15);
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.cart-body .btn-like img {
+  width: 50px;
+  height: 50px;
+}
+
+.cart-body h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.cart-body p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.cart-body a {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #060606;
+  text-decoration: underline;
+}
+
+.cart-body .btn-cod {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.cart-body .btn-back-to-cart {
+  width: 100%;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.cart-body .btn-confirm {
+  width: 100%;
+  height: 35px;
+  background: #000000;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.title-product {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.info-product {
+  border-bottom: 1px solid #EFECEC;
+  padding: 7px 7px 20px 7px;
+}
+
+.info-product .gift-icon {
+  height: 25px;
+}
+
+.info-product .gift-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.info-product h6 {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.info-product .img-product {
+  width: 144px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info-product .btn-receive {
+  width: 125px;
+  height: 20px;
+  border: 1px solid #000000;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.btn-buy {
+  width: 100%;
+  height: 30px;
+  background: #000000;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #EFECEC;
+}
+
+.input-coupon {
+  width: 467px;
+  height: 30px;
+  border: 1px solid #C4C4C4;
+  padding-left: 15px;
+  margin-right: 5px;
+  font-size: 9px;
+}
+
+.product-list {
+  padding: 20px;
+}
+
+.product-list .image-arrival {
+  width: 325px;
+  height: 425px;
+}
