@@ -1,9 +1,11 @@
 import React from "react";
 import { ICONS } from "../../../configs";
 import styles from "./styles.module.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { RouterPath } from "../../../routes";
 
 const Header = () => {
+  const navigate = useNavigate();
   const checkActive = (path: string) => {
     return window.location.pathname === path;
   };
@@ -18,7 +20,7 @@ const Header = () => {
         <li><img alt="icons search" src={ICONS.SEARCH} /></li>
         <li><img alt="icons user" src={ICONS.USER} /></li>
         <li><img alt="icons star" src={ICONS.STAR} /></li>
-        <li><img alt="icons shopping cart" src={ICONS.SHOPPINGCART} /></li>
+        <li><img alt="icons shopping cart" className="cursor-pointer" onClick={() => navigate(RouterPath.CART)} src={ICONS.SHOPPINGCART} /></li>
       </ul>
     </nav>
   );

@@ -1,11 +1,14 @@
 import AMERICANEXPRESS from "../assets/images/american-express.jpg";
 import BLACKCHECK from "../assets/images/black-check.png";
+import CART1 from "../assets/images/cart-1.png";
+import CART2 from "../assets/images/cart-2.png";
 import CATALOGBAGS from "../assets/images/CatalogBags.jpg";
 import CATALOGCLOTHING from "../assets/images/CatalogClothing.jpg";
 import CATALOGSHOES from "../assets/images/CatalogShoes.jpg";
 import CATEGORYKIDS from "../assets/images/CategoryKids.jpg";
 import CATEGORYMAN from "../assets/images/CategoryMan.jpg";
 import CATEGORYWOMEN from "../assets/images/CategoryWomen.jpg";
+import GIFTIMAGE from "../assets/images/gift-image.png";
 import IMGARRIVAL1 from "../assets/images/ImgArrival1.jpg";
 import IMGARRIVAL2 from "../assets/images/ImgArrival2.jpg";
 import IMGARRIVAL3 from "../assets/images/ImgArrival3.jpg";
@@ -37,12 +40,15 @@ import WOMANSHOES from "../assets/images/WomanShoes.jpg";
 const images = {
   AMERICANEXPRESS,
   BLACKCHECK,
+  CART1,
+  CART2,
   CATALOGBAGS,
   CATALOGCLOTHING,
   CATALOGSHOES,
   CATEGORYKIDS,
   CATEGORYMAN,
   CATEGORYWOMEN,
+  GIFTIMAGE,
   IMGARRIVAL1,
   IMGARRIVAL2,
   IMGARRIVAL3,

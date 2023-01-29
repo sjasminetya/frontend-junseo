@@ -1,4 +1,7 @@
 export enum RouterPath {
   HOME = "/home",
-  PRODUCT = "/product"
+  PRODUCT = "/product",
+  CART = "/cart",
+  CHECKOUT = "/checkout",
+  SUCCESS = "/success"
 }

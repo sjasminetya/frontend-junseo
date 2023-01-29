@@ -1,0 +1,33 @@
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input .label {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input .formControl {
+  width: 100%;
+  border: 1px solid #C4C4C4;
+  padding-left: 15px;
+  margin-right: 5px;
+  font-size: 9px;
+}
+
+.input .formControl:focus {
+  outline: none;
+}
+
+.input .append {
+  padding: 20px;
+}
+
+.errorHelper {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #cf212a;
+}

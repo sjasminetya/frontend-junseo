@@ -45,9 +45,9 @@ const Footer = () => {
               {renderIcon(ICONS.PINTEREST)}
             </div>
             <ul>
-              <li>Address: Lenteng Agung, Jakarta Selatan</li>
-              <li>Phone: +62 8123456789</li>
-              <li>Email: junseostore@gmail.com</li>
+              <li>Address: Magelang, Jawa Tengah</li>
+              <li>Phone: +62 851-5660-2902</li>
+              <li>Email: dev.shaula@gmail.com</li>
             </ul>
           </div>
         </div>

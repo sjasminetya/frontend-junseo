@@ -1,0 +1,42 @@
+.success {
+  height: 100vh;
+}
+
+.success h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.success p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.success img {
+  width: 419px;
+}
+
+.success .btn-check {
+  width: 301px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.success .btn-home {
+  width: 301px;
+  height: 35px;
+  background: #000000;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
