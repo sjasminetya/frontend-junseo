@@ -78,7 +78,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-undef': 2,
     'react/jsx-pascal-case': 0,
-    'react/jsx-sort-default-props': [2, { ignoreCase: true }],
+    'react/sort-default-props': [2, { ignoreCase: true }],
     'react/jsx-sort-props': [2, { ignoreCase: true }],
     'sort-keys': [2, 'asc', { caseSensitive: false, natural: false }],
     '@typescript-eslint/no-explicit-any': 'off',

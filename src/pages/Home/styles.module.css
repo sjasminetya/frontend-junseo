@@ -9,6 +9,7 @@
   border-radius: 10px;
   width: 325px;
   height: 425px;
+  object-fit: cover;
 }
 
 .view-more p {
