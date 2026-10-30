@@ -44,11 +44,6 @@ const Footer = () => {
               {renderIcon(ICONS.TWITTER)}
               {renderIcon(ICONS.PINTEREST)}
             </div>
-            <ul>
-              <li>Address: Magelang, Jawa Tengah</li>
-              <li>Phone: +62 851-5660-2902</li>
-              <li>Email: dev.shaula@gmail.com</li>
-            </ul>
           </div>
         </div>
       </div>
